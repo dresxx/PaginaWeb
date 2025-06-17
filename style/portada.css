@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.logo {
+    position: relative;
+    height: 100px;
+    background: linear-gradient(to right, gray, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.imagen {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Contenedor de los botones */
+.acciones {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap; /* Permite que se acomoden en pantallas pequeñas */
+}
+
+/* Estilo general para los botones */
+.boton {
+    background: linear-gradient(to right, #00b09b, #96c93d);
+    color: black;
+    border: none;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.boton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* ------------------ */
+/* RESPONSIVE MOBILE  */
+/* ------------------ */
+@media (max-width: 600px) {
+    .logo {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .imagen {
+        height: 70px;
+        width: 70px;
+    }
+
+    .acciones {
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .boton {
+        width: 80%;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+

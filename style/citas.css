@@ -1,1 +1,144 @@
+body {
+    background-color: black;
+}
+
+.logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* corregido */
+    background: linear-gradient(to right, gray, black);
+    height: 100px;
+    padding: 0 20px;
+}
+
+.imagen {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.acciones {
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.bienvenida {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.boton {
+    background: linear-gradient(to right, #00b09b, #96c93d);
+    color: black;
+    border: none;
+    padding: 10px 16px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    display: inline-block;
+    text-align: center;
+}
+
+.boton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+
+/* Estilos para el contenedor principal de citas y miscitas */
+.contenedor {
+    display: flex;
+    gap: 300px; /* espacio entre los dos divs */
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Formulario de cita */
+.form-cita {
+    background: #222;
+    padding: 60px 20px;
+    max-width: 400px;
+    min-width: 300px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* Aplica estilos de texto compartidos al formulario */
+.form-cita {
+    margin: 20px 0; /* margen vertical para no pegarse a otros elementos */
+}
+
+.form-cita label {
+    
+    color:rgb(255, 255, 255);
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-cita input,
+.form-cita select {
+    width: calc(100% - 24px);
+    padding: 8px 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #000;
+    appearance: none; /* opcional, para quitar estilos por defecto del navegador */
+}
+
+
+.form-cita button {
+    margin-top: 50px; /* espacio extra arriba para separar el botón */
+    width: 100%;
+    background: linear-gradient(to right, #00b09b, #96c93d);
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.form-cita button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+/* Contenedor de miscitas con estilos similares */
+.miscitas {
+    font-weight: bold;
+    margin: 20px 0;
+    background-color: #222;
+    padding: 60px 20px; /* para que tenga la misma altura que el formulario */
+    max-width: 400px;
+    min-width: 300px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.miscitas label{
+    color:white;
+}
+
+
+
+
+
+
+
 

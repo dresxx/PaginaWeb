@@ -1,0 +1,104 @@
+
+body {
+    background-color: black;
+    margin: 0;
+    font-family: sans-serif;
+    color: black;
+}
+
+.logo {
+    position: relative;
+    height: 100px;
+    background: linear-gradient(to right, gray, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.imagen {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Botones dentro del logo */
+.acciones {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.boton {
+    background: linear-gradient(to right, #00b09b, #96c93d);
+    color: black;
+    border: none;
+    padding: 10px 16px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    display: inline-block; /* evita que el botón ocupe toda la línea */
+    text-align: center;
+}
+
+.boton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+
+.foto {
+    min-height: 400px;
+    background-image: url('../img/logobarber.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.contenedor {
+    background-color: rgba(255, 255, 255, 0);
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+#field {
+    margin-top: 50px;
+    height: 115px;
+    width: 220px;
+    border-radius: 15px;
+    border: 5px solid green;
+    background: linear-gradient(to right, #a8e6cf, #dcedc1);
+    color: #033;
+}
+
+
+
+
+
+
+#medio {
+    text-align: center;
+}
+
+.centrar {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.mensaje-error {
+    color: red;
+    font-weight: bold;
+}
+

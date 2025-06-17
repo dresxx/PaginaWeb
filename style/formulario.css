@@ -1,0 +1,69 @@
+body{
+    background-color:black;
+}
+
+#tabla{
+		border-spacing:5px;
+
+	}
+	td{
+		padding:3px;
+	}
+	#derecha{
+		text-align:right;
+	}
+	#medio{
+		text-align:center;
+	}
+	#field{
+		height: 475px;
+		width: 950px;
+	}
+	#centrar{
+		text-align:center;
+	}
+
+    .imagen{
+		height:100px;
+		width:100px;
+		border-radius:50%;
+		object-fit:cover;
+	}
+    .logo{
+		text-align:center;
+		height: 100px;
+ 		padding-top: 15px;
+ 		background: linear-gradient(to right, gray, black);
+	}
+
+    #field {
+        
+        border-radius: 15px;
+        border: 5px solid green;
+        background: linear-gradient(to right, #a8e6cf, #dcedc1); /* verde menta suave */
+        color: #033;
+}
+.form {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente */
+  min-height: 80vh;        /* altura para centrar verticalmente */
+}
+
+
+	button {
+  background: linear-gradient(to right, #00b09b, #96c93d); /* Degradado verde */
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}

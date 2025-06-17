@@ -1,0 +1,40 @@
+#tabla {
+	font-family:Arial; 
+	text-align: center;
+	width:100%; border-collapse: collapse;
+}
+
+th{
+	font-size:1.2em; 
+	border: 1px solid #98b;
+	padding-top:5px; padding-bottom:4px;
+	background-color:#aaa; color:#fff;
+}
+
+td {
+	font-size:1em; 
+	border:1px solid #98b;
+	padding:4px 7px 2px 7px;
+}
+
+.alt {
+	color:#000; 
+	background-color:#eee;
+}	
+
+#visualizar{
+	font-size:1.2em;
+	border: 1px solid #98b;
+	padding-top:5px; padding-botton:4px;
+	background-color:green; color:white;
+}
+
+#td{
+	border:0px;
+	font-size:1em;
+	adding:4px 7px 2px 7px;	
+}	
+
+#centrar{
+	text-align:center;
+}
